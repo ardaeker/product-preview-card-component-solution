@@ -1,6 +1,8 @@
 import "@/styles/tailwind.css";
 import { fraunces, montserrat } from "@/assets/fonts/font";
 
+import openGraphImage from "@/public/previews/desktop-preview.png";
+
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -19,7 +21,7 @@ export const metadata: Metadata = {
       "Hello, I'm Arda Eker. This website showcases my solution to the Product Preview Card Component Challenge on Frontend Mentor.",
     images: [
       {
-        url: "/desktop-preview.png",
+        url: openGraphImage.src,
       },
     ],
   },
