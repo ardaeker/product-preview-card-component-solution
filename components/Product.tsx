@@ -56,13 +56,15 @@ function ImageMobile({ className }: { className: string }) {
         transition={{ delay: 0.2, duration: 0.2 }}
         className="h-full"
       >
-        <Image
-          src={ImageProductMobile}
-          alt="Gabrielle Essence Eau De Parfum"
-          className={cn("relative z-10", className)}
-          priority={true}
-          onLoad={(e: any) => setLoading(false)}
-        />
+        <picture>
+          <Image
+            src={ImageProductMobile}
+            alt="Gabrielle Essence Eau De Parfum"
+            className={cn("relative z-10", className)}
+            priority={true}
+            onLoad={(e: any) => setLoading(false)}
+          />
+        </picture>
       </m.div>
       <m.div
         initial={{ opacity: 1 }}
@@ -92,13 +94,15 @@ function ImageDesktop({ className }: { className: string }) {
         transition={{ delay: 0.2, duration: 0.2 }}
         className="h-full"
       >
-        <Image
-          src={ImageProductDesktop}
-          alt="Gabrielle Essence Eau De Parfum"
-          className={cn("relative z-10", className)}
-          priority={true}
-          onLoad={(e: any) => setLoading(false)}
-        />
+        <picture>
+          <Image
+            src={ImageProductDesktop}
+            alt="Gabrielle Essence Eau De Parfum"
+            className={cn("relative z-10", className)}
+            priority={true}
+            onLoad={(e: any) => setLoading(false)}
+          />
+        </picture>
       </m.div>
       <m.div
         initial={{ opacity: 1 }}
