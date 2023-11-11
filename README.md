@@ -32,8 +32,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-tailwind-css-nextjs-5VL-5_3no_)
+- Live Site URL: [Live Site](https://ardaeker-product-preview-card-component-solution.vercel.app)
 
 ## Built with
 
