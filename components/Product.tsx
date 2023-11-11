@@ -130,9 +130,9 @@ export default function Product() {
           <p className="font-montserrat text-c12 tracking-c5 text-aurometal-saurus mb-3 font-medium uppercase sm:mb-5">
             Perfume
           </p>
-          <h2 className="font-fraunces text-c32 text-gunmetal mb-4 font-bold leading-8 sm:mb-6">
+          <h1 className="font-fraunces text-c32 text-gunmetal mb-4 font-bold leading-8 sm:mb-6">
             Gabrielle Essence Eau De Parfum
-          </h2>
+          </h1>
           <p className="font-montserrat leading-c23 text-aurometal-saurus sm:mb-c29 mb-6 text-sm font-medium">
             A floral, solar and voluptuous interpretation composed by Olivier
             Polge, Perfumer-Creator for the House of CHANEL.
